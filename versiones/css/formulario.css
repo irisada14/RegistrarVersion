@@ -1,0 +1,66 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+div {
+   width: 100%;
+   margin-left: 25px;
+}
+
+input,select{
+  margin-top: 1px;
+  width: 50%;
+  border-radius: 3px;
+}
+
+label{
+  width: 70%;
+  border-radius: 3px;
+}
+
+button{
+  padding: 1% .75%;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white; 
+  border: 2px solid #008CBA;
+  color: #008CBA;
+
+}
+button:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+textarea{
+  height: 15%;
+  margin-top: 1px;
+  width: 75%;
+  border-radius: 3px;
+
+}
+
+.header{
+ background-color: whitesmoke;
+ padding: 1% .75%;
+}
+
+.circulo
+{
+  width: 70px;
+  height: 70px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background-color: white; 
+  border: 3px solid #008CBA;
+  color: #008CBA;
+  font-size: 50;
+}
